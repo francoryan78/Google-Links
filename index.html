@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Google Apps</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <style>
     body {
       font-family: Arial, sans-serif;
       padding: 16px;
       background-color: #f9f9f9;
     }
+
     h2 {
       color: #202124;
     }
+
     .app-link {
       display: flex;
       align-items: center;
@@ -24,10 +27,18 @@
       color: #202124;
       transition: background 0.2s ease;
     }
+
     .app-link:hover {
       background: #e8f0fe;
     }
-    .app-icon {
+
+    .material-icons {
+      font-size: 20px;
+      margin-right: 10px;
+      color: #5f6368;
+    }
+
+    .app-icon-img {
       width: 20px;
       height: 20px;
       margin-right: 10px;
@@ -38,37 +49,37 @@
   <h2>Google Apps</h2>
 
   <a class="app-link" href="https://mail.google.com" target="_blank">
-    <img class="app-icon" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail">
+    <img class="app-icon-img" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail">
     Gmail
   </a>
 
   <a class="app-link" href="https://drive.google.com" target="_blank">
-    <img class="app-icon" src="https://ssl.gstatic.com/images/branding/product/2x/drive_2020q4_48dp.png" alt="Drive">
+    <img class="app-icon-img" src="https://ssl.gstatic.com/images/branding/product/2x/drive_2020q4_48dp.png" alt="Drive">
     Google Drive
   </a>
 
   <a class="app-link" href="https://docs.google.com" target="_blank">
-    <img class="app-icon" src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_document_x32.png" alt="Docs">
+    <img class="app-icon-img" src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_document_x32.png" alt="Docs">
     Google Docs
   </a>
 
   <a class="app-link" href="https://sheets.google.com" target="_blank">
-    <img class="app-icon" src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_spreadsheet_x32.png" alt="Sheets">
+    <img class="app-icon-img" src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_spreadsheet_x32.png" alt="Sheets">
     Google Sheets
   </a>
 
   <a class="app-link" href="https://calendar.google.com" target="_blank">
-    <img class="app-icon" src="https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_16.png" alt="Calendar">
+    <span class="material-icons">calendar_today</span>
     Google Calendar
   </a>
 
   <a class="app-link" href="https://meet.google.com" target="_blank">
-    <img class="app-icon" src="https://www.gstatic.com/meet/ic_product_home_96_1x.png" alt="Google Meet">
+    <span class="material-icons">videocam</span>
     Google Meet
   </a>
 
   <a class="app-link" href="https://contacts.google.com" target="_blank">
-    <img class="app-icon" src="https://ssl.gstatic.com/images/icons/material/system_gm/2x/contacts_48dp.png" alt="Contacts">
+    <span class="material-icons">contacts</span>
     Google Contacts
   </a>
 
